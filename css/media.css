@@ -25,6 +25,8 @@
 	#page1 .banner .text{ width: 300px; margin-left: -150px;}		
 	
 	#page2 .widthMain{ width: 100%;}
+	#page2 .pageIcon li>img{ width: 60px; height: 60px;}
+	#page2 .bg img{ width: 100%;}
 	
 	#page3 .widthMain{ width: 100%; padding: 0 5px;}
 		#page3 .searchBox .searchCon input{ width: auto; margin-right: 10px;}
@@ -35,6 +37,13 @@
 			#page3 .orderBox .orderCon li>.dashLine{ margin: 20px 5px;}
 	
 	#page4 .leftBox img{ margin-left: 10px;}
+	#page4 .content{ flex-flow: column;}
+	#page4 .leftBox img{ width: 30px; height: 30px;}
+	#page4 .leftBox span{ line-height: 30px;}
+	#page4 .leftBox ul{ height: 200px; margin-top: 20px;}
+	#page4 .leftBox ul li{ height: 50px;}
+	#page4 .rightBox img{ width: 80%; margin: 0 10%; height: auto;}
+	#page4 .leftBox span{ margin-left: 10px; font-size: 12px;}
 	
 	#page5 .content{ padding: 0 10px;}
 		#page5 .title{ display: none;}
@@ -59,14 +68,17 @@
 		#page8 .joinCon p,#page8 .joinCon .join a{ font-size: 14px;}	
 }
 
-@media (max-width: 778px ) {
+@media (max-width: 778px ) and (min-width: 768px )   {
 	#page1 .banner .text{ width: 500px; margin-left: -250px; margin-top: 30%;}
 	#page2 .bg{ margin-top: 50px;}
+	#page2 .bg img{ width: auto;}
 	#page4 .content{ flex-flow: column;}
+	#page4 .leftBox span{ margin-left: 10px; font-size: 16px;}
 	#page5 .title{ display: flex;}
 	.joinBtn{ padding: 30px;}
 	#page7 .textCon, #page7 .iconCon{ text-align: center;}
-	#page8 .joinCon p,#page8 .joinCon .join a{ font-size: 16px;}	
+	#page8 .joinCon p,#page8 .joinCon .join a{ font-size: 16px;}
+	#page4 .rightBox img{ height: 400px; width: auto; margin: 20px auto;}	
 }
 
 @media (max-width: 980px ) {
