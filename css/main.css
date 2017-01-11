@@ -1,0 +1,149 @@
+/*public*/
+.widthMain{ max-width: 980px; margin: 0 auto; width: 100%;}
+.bgWhite{ background-color: white;}
+.borderGrey{ border: solid 1px #cdcdcd;}
+.txCenter{ text-align: center;}
+
+
+.headerBox{ position: fixed; top: 0; width: 100%;}
+.headerBox .mTop{ display: none;}
+.header{ width: 100%; height: 70px;}
+	.header .top{ overflow: hidden;}
+		.header .top .logo{ float: left; margin-left: 90px;}
+			.header .top .logo img{ display: block; margin: 10px 16px 20px 0; float: left;}
+			.header .top .logo img:last-child{ margin: 18px 16px 20px 0;}
+		.header .top .logo_tel{ float: right; margin-right: 30px;}
+			.header .top .logo_tel img{ display: block; margin: 16px 16px 14px 0; float: left;}
+			.header .top .logo_tel img:first-child{ margin: 10px 16px 14px 0;}
+		
+.navBtn{ display: none;} 
+
+.navBox{ background: url(../img/nav_bg.png); position: relative;}
+	
+	.navBox .navlogo{ position: absolute; left: 10px; top: 0;}
+	.navBox .nav{ height: 47px;}
+	.navBox .navWidth{ margin-left: 100px;}
+		.navBox .nav a{ display: inline-block; width: 100px; text-align: center; line-height: 44px; color: white; font-size: 14px; margin-top: 3px;}
+		.navBox .nav a.active{ background-color: #FFFFFF; color: #0097dc; border-top-left-radius: 5px; border-top-right-radius: 5px;}
+		.navBox .nav a:hover{ background-color: #FFFFFF; color: #0097dc; border-top-left-radius: 5px; border-top-right-radius: 5px;}
+
+
+
+/*page1 index*/
+#page1 .banner{ width: 100%; height: 100%;}
+	#page1 .banner img{ display: block; width: 100%; height: 100%;}
+	#page1 .banner .text{ position: absolute; left: 50%; top: 100px; margin-left: -400px; width: 800px; height: auto;}
+
+/*page2 产品服务*/
+#page2{ background-color: #e1eaef;}
+#page2 .widthMain{ max-width: 980px; width: 100%;}
+#page2 .pageIcon{ display: flex; flex-flow: row; margin-top: 30px;}
+	#page2 .pageIcon li{flex: 1;}
+		#page2 .pageIcon li>*{display: block;}
+		#page2 .pageIcon li>img{ margin: 0 auto; width: 80px; height: 80px;}
+		#page2 .pageIcon li>span{ text-align: center; margin-top: 20px; font-size: 14px; color: #4e4e4e;}
+#page2 .bg{ margin-top: 20px;}
+	#page2 .bg img{ display: block; margin: 0 auto; max-height: 289px; }
+
+/*page3 订单查询*/
+#page3 .fp-tableCell{ background-image: url(../img/page3/page3_bg.png); background-size: 100% 100%; background-repeat: no-repeat;}
+	#page3 .box{ border: solid 1px #9b9b9b; border-radius: 5px; padding: 16px; margin-bottom: 20px;}
+		#page3 .title img{ display: inline-block; vertical-align: bottom; height: 24px;}
+		#page3 .title span{ display: inline-block; line-height: 24px; font-size: 16px; color: #00923e; font-weight: bold;}
+		#page3 .searchBox .searchCon{ margin: 20px 0; text-align: center;}
+			#page3 .searchBox .searchCon input{ height: 48px; width: 520px; line-height: 48px; font-size: 16px; color: #9a9a9a; border: solid 1px #9b9b9b; border-radius: 5px; padding: 6px; margin-right: 20px;}
+			#page3 .searchBox .searchCon button{ background-color: #13acf2; color: #FFFFFF; width: 200px; height: 48px; border-radius: 5px;}
+		#page3 .orderBox{ margin-bottom: 80px;}
+			#page3 .orderBox .orderCon{ display: flex; flex-flow: row; margin: 20px 100px;}
+				#page3 .orderBox .orderCon li{ flex: 1; text-align: center;}
+					#page3 .orderBox .orderCon li>*{ display: block;}
+					#page3 .orderBox .orderCon li>img{ margin: 0 auto;}
+					#page3 .orderBox .orderCon li>span{ line-height: 32px; color: #4e4e4e;}
+					#page3 .orderBox .orderCon li>.dashLine{ height: 1px; border-bottom: dashed 1px #9b9b9b; margin-top: 30px;}
+
+/*page4 成为配送员*/
+#page4{ background-color: #72afcb;}
+	#page4 .content{ display: flex; flex-flow: row;}
+	#page4 .leftBox,
+	#page4 .rightBox{ flex: 1; text-align: center;}
+		#page4 .leftBox ul { height: 400px;}
+			#page4 .leftBox ul li{ height: 100px; overflow: hidden;}
+				#page4 .leftBox img{ display: block; float: left; width: 60px; height: 60px; vertical-align: middle;}
+				#page4 .leftBox span{ display: block; float: left; color: #FFFFFF; line-height: 60px; margin-left: 20px; font-size: 16px;}
+		#page4 .rightBox img{ display: block; height: 400px; margin: 0 auto;}
+
+
+/*page5 平台开放*/
+#page5 .fp-tableCell{ background-image: url(../img/page5/page5_bg.png); background-size: 100% 100%; background-repeat: no-repeat;}
+	#page5 .content{ max-width: 1082px; width: 100%; margin: 0 auto;}
+ 		#page5 .title{ display: flex; flex-flow: row; max-width: 600px; width: 100%; margin: 0 auto;}
+ 			#page5 .title li{ flex: 1; text-align: center;}
+ 				#page5 .title li img{ display: block; margin: 0 auto; width: 80px;}
+ 				#page5 .title li span{ display: block; line-height: 30px; font-size: 16px; color: #656565;}
+ 				#page5 .title li:nth-child(even) img{ margin-top: 24px;}
+ 		#page5 .textCon{ margin-top: 20px;}
+ 			#page5 .textCon p{ color: #333333; font-size: 16px; line-height: 28px; margin-bottom: 10px;}		
+			#page5 .textCon span{ color: #3fa6e0;}
+			
+/*申请加入按钮*/			
+	.joinBtn{ text-align: center; padding-top: 16px;}
+		.joinBtn button{ background-color: transparent; border: solid 2px #14abf0; border-radius: 5px; height: 40px; width: 200px; line-height: 36px; color: #14abf0;}
+
+/*page6 城市加盟*/
+#page6 .fp-tableCell{ background-image: url(../img/page6/page6_bg.png); background-size: 100% 100%; background-repeat: no-repeat;}	
+	#page6 .content{ max-width: 980px; width: 100%; margin: 0 auto;}
+		#page6 .content .title{ text-align: center; color: #FFFFFF;}
+			#page6 .content .title h1{ font-size: 22px;line-height: 40px;}
+			#page6 .content .title p{ line-height: 32px; font-size: 16px;}
+	#page6 .con{ display: flex; flex-flow: row; margin-top: 60px;}
+		#page6 .con li.textCon{ flex: 1; display: flex; flex-flow: column; margin: 0 10px;}
+			#page6 .con .textCon .module{ flex: 1; display: flex; flex-flow: row;}
+			#page6 .con .textCon .module:first-child{ border-bottom: solid 1px #FFFFFF;}
+				#page6 .con .textCon .module .text{ display: block; flex: 1; font-size: 14px; color: #FFFFFF; padding: 16px 26px;}
+					#page6 .con .textCon .module .text span,
+					#page6 .con .textCon .module .text p{ line-height: 24px;}
+				#page6 .con .textCon .module img{ display: block; width: 50px; height: 50px; margin: auto 0;}
+		#page6 .center img{ display: block; width: 160px; height: 160px; margin-top: 9px;}
+	
+	#page6 .joinBtn button{ color: #FFFFFF; border-color: #FFFFFF; width: 160px; margin-top: 20px;}
+	#page6 .joinBtn button:hover{ background: rgba(255, 255, 255, 0.6);}
+	
+	
+/*page7 关于温通*/	
+#page7 .content{ width: 100%; display: flex; flex-flow: row; height: 100%;}
+	#page7 .leftBox{ flex: 1.2; background-image: url(../img/page7/page7_bg.png);background-size: 100% 100%; background-repeat: no-repeat;}
+	#page7 .rightBox{ flex: 1; background-color: #e9e9e9; max-height: 100%; overflow: hidden;}
+		#page7 .rightBox .rightCon{ padding: 40px 10%;}
+			#page7 .title{ text-align: center; display: flex; flex-flow: row;}
+				#page7 .title li{ flex: 1; font-size: 24px; color: #323232;}
+					#page7 .title .titleLine{ width: 60px; height: 2px; background-color: #7f7a77; margin-top: 15px;}
+				#page7 .title li:first-child div{ float: right;}
+				#page7 .title li:nth-child(2){ padding: 0 20px;}
+			#page7 .textCon,
+			#page7 .iconCon{ color: #333333; font-size: 14px; line-height: 28px; margin-top: 20px;}
+				#page7 .iconCon ul{ display: flex; flex-flow: row; margin-top: 20px;}
+					#page7 .iconCon ul li{ flex: 1; overflow: hidden;}
+						#page7 .iconCon ul li img{ display: block; width: 60px; height: 60px; vertical-align: middle; float: left;}
+						#page7 .iconCon ul li span{ display: block; text-align: end; line-height: 24px; padding-top: 6px; float: left; margin-left: 10px;}
+							#page7 .iconCon ul li span i{ font-style: normal; color: #4eb05b;}
+	
+/*page8 人才招聘*/
+#page8 .content{ background-image: url(../img/page8/page8_bg.png); background-size: 100% 100%; background-repeat: no-repeat; width: 100%; height: 100%; position: relative;}
+	#page8 .joinCon{ position: absolute; right: 10%; top:50%; margin-top: -200px; background: rgba(255,255,255,.6); padding: 20px; border-radius: 10px;}
+		#page8 .joinCon .title img{ width: 100%;}
+		#page8 .joinCon .join{ margin-top: 20px;}
+			#page8 .joinCon .join a{ display: block; color: #0d7fb5; text-decoration: underline;}
+			#page8 .joinCon .join a:hover{}
+		#page8 .joinCon p{ margin-top: 20px; color: #38393b; font-size: 18px;}
+
+
+
+/*底部*/
+.foot{ position: absolute; bottom: 0; left: 0; width: 100%; z-index: 10; background-color: #0299de; text-align: center; padding: 10px; font-size: 14px; color: #FFFFFF;}
+.foot a{ color: #FFFFFF;}
+.foot a:hover{ text-decoration: underline;}
+
+	
+	
+	
+
