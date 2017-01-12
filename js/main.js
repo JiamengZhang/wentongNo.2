@@ -8,10 +8,10 @@ $(function(){
 			// slidesNavPosition: 'bottom',
 		});
 		$(".header").find(".navBtn").on("click",function(){
-			$(".navBox").slideToggle("fast");			
+			$(".nav").slideToggle("fast");			
 		});
 		$(".navBox a").click(function(){
-			$(".navBox").slideToggle("fast");		
+			$(".nav").slideToggle("fast");		
 		});
 		
 		
