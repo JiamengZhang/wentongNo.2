@@ -25,6 +25,8 @@
 	
 	
 	#page1 .banner .text{ width: 300px; margin-left: -150px;}		
+	.customer{ display: none;}
+	
 	
 	#page2 .widthMain{ width: 100%;}
 	#page2 .pageIcon li>img{ width: 60px; height: 60px;}
@@ -72,6 +74,9 @@
 
 @media (max-width: 778px ) and (min-width: 768px )   {
 	#page1 .banner .text{ width: 500px; margin-left: -250px; margin-top: 30%;}
+	.customer{ display: block; width: 96%; left: 2%; margin-left: 0;}
+		.partnersBox .partners{ width: 92%;}
+	 
 	#page2 .bg{ margin-top: 50px;}
 	#page2 .bg img{ width: auto;}
 	#page4 .content{ flex-flow: column;}

@@ -32,7 +32,17 @@
 /*page1 index*/
 #page1 .banner{ width: 100%; height: 100%;}
 	#page1 .banner img{ display: block; width: 100%; height: 100%;}
-	#page1 .banner .text{ position: absolute; left: 50%; top: 100px; margin-left: -400px; width: 800px; height: auto;}
+	#page1 .banner .text{ position: absolute; left: 50%; top: 100px; margin-left: -300px; width: 600px; height: auto;}
+
+.customer{ position: absolute; left: 50%; margin-left: -490px; bottom: 60px; z-index: 100; background: rgba(2,153,222,.8); padding: 3px 16px; border-radius: 5px;}
+	.customer .title{ color: #FFFFFF; font-size: 16px; line-height: 32px;}
+	.customer .text{ color: #FFFFFF; font-size: 14px; line-height: 32px;}
+	.partnersBox>*{ display: inline-block; vertical-align: middle;}
+	.partnersBox .arrow-left{ width: 10px; height: 18px; /*background-image: url(../img/page1/brand/arrowleft.png);*/cursor: pointer; font-size: 30px; line-height: 18px; margin-top: -5px; color: #FFFFFF;}
+	.partnersBox .arrow-right{ width: 10px; height: 18px; /*background-image: url(../img/page1/brand/arrowright.png); */cursor: pointer; font-size: 30px; line-height: 18px; margin-top: -5px; color: #FFFFFF;}
+	.partnersBox .partners{ width: 880px; height: 35px;margin:0 10px;position: relative;overflow: hidden;}
+		.partnersBox .partners ul{position: absolute; left: 0; top: 0; width: 1400px;}
+			.partnersBox .partners li{float: left; margin-right: 20px; width: 80px;}
 
 /*page2 产品服务*/
 #page2{ background-color: #e1eaef;}
