@@ -40,4 +40,39 @@ $(function(){
 //		    paginationClickable: true,
 		    autoplayDisableOnInteraction : false///注意此参数，默认为true
 		});
+		
+	$("#searchBtn").on("click",function(){
+		var ewbNo = $("#ewbNo").val();
+		if(!ewbNo.trim()){
+			alert("请输入运单号");
+			return false;
+		}else{
+			var searchewbNo;
+			var ewbNoArr = ewbNo.trim().split(",");
+			var ewbNoArrE = ewbNo.trim().split("，");
+			if(ewbNoArr == ewbNoArrE){
+				searchewbNo = ewbNoArr;
+			}else{
+				searchewbNo = ewbNoArrE;
+			}
+			
+			if (searchewbNo.length > 100) {
+	            alert('一次最多只能查询100个快件单号');
+	            return false;
+	        }
+			window.open('http://wto.ne56erp.com/common/ewb_query.zul?ewbNo='+searchewbNo);
+		}
+		
+		
+		
+//		$.ajax({
+//			type: "get",
+//			url: url,
+//			async: false,
+//			dataType: 'jsonp',
+//			success: function(data){
+//				alert(data);
+//			}
+//		});
+	});
 })

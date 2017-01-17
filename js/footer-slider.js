@@ -5,9 +5,10 @@
  * ======================================================================
  */
 $(function(){
-	var scroll = 100;//移动距离
+	var scroll = 120;//移动距离
     var scrollWidth = $(".scrol").width();
-	var leftMax = scrollWidth - 940;
+    var contentWidth = $(".partners").width();
+	var leftMax = scrollWidth - contentWidth;
 	$(".arrow-right").click(function(e){
 		var leftoffset = $(".scrol").position().left;
 		if(!$(".partners .scrol").is(":animated")){
